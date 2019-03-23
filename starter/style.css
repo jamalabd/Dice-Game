@@ -16,7 +16,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.jpg);
+    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(./manuel.jpg);
     background-size: cover;
     background-position: center;
     font-family: Lato;
@@ -24,6 +24,25 @@ body {
     position: relative;
     height: 100vh;
     color: #555;
+}
+
+.btn-outline-danger{
+  position: relative;
+  top: 7px;
+
+}
+
+.alert-btn{
+  margin-top: 6px;
+  padding: 9px;
+  width: 120px;
+  border: 1px solid #EB4D4D;
+  border-radius: 5px;
+  background-color: #EB4D4D;
+}
+
+.alert-btn:hover{
+  font-size: 17px;
 }
 
 .wrapper {
